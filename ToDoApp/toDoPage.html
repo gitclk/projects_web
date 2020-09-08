@@ -47,27 +47,46 @@
 
     <div class="container">
         <div class="row">
-            <div class="col col-md-8">
+            <div class="col col-md-7">
                 <div class="row">
-                    <div class="col col-md-8"> task to do </div>
+                    <div class="col col-md-8">Tasks </div>
                     <div class="col col-md-1"> Done</div>
+                    <div class="col col-md-1"> </div>
                     <div class="col col-md-1"> Undone </div>
-                    <div class="col col-md-2"> </div>
+                    <div class="col col-md-1"> </div>
 
                 </div>
                 <div class="row">
                     <div class="col col-md-8"> task1 </div>
                     <div class="col col-md-1">
-                        <button>DONE</button>
+                        <a class="btn btn-success btn-sm" href="#" role="button">Done</a>
+                        <input id="status" type="checkbox" checked="">
+                        <label for="status" style="box-shadow: inset 0 -30px #5cb85c; color: white;"><a>Done</a></label>
+
+
                     </div>
+                    <div class="col col-md-1"> </div>
                     <div class="col col-md-1">
-                        <button>UNDONE</button>
+                        <a class="btn btn-danger btn-sm" href="#" role="button">Undone</a>
                     </div>
-                    <div class="col col-md-2"> </div>
+                    <div class="col col-md-1"> </div>
 
                 </div>
 
 
+            </div>
+            <div class="col col-md-1">
+
+                <form>
+                    <div class="row">
+                      <div class="col col-md-7">
+                        <input type="text" class="form-control" placeholder="">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+                  </form>
             </div>
 
             <div class="col col-md-4">
